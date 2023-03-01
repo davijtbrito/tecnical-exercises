@@ -1,11 +1,9 @@
 package com.tecnicalexercises.tecnicalexercises;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,9 +29,9 @@ class TecnicalExercisesApplicationTests {
 	@Test
 	void testPredicates(){
 		
-		Predicate<Integer> greaterThanTen = (i) -> i> 10;
-		assertTrue(greaterThanTen.test(11));
-		assertFalse(greaterThanTen.test(8));
+		Predicate<Integer> greaterThanTen = (i) -> i> 10;		
+		Predicate<Integer> lessThanTen = (i) -> i< 20;				
+		assertTrue(greaterThanTen.and(lessThanTen).test(15));		
 	}
 
 
