@@ -1,4 +1,4 @@
-package com.tecnicalexercises.tecnicalexercises.functionalities;
+package com.tecnicalexercises.tecnicalexercises.functionalinterface;
 
 @FunctionalInterface
 public interface FuncInterface {

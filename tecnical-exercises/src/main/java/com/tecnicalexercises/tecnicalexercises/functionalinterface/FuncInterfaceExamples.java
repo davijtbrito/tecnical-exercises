@@ -1,4 +1,4 @@
-package com.tecnicalexercises.tecnicalexercises.functionalities;
+package com.tecnicalexercises.tecnicalexercises.functionalinterface;
 
 public class FuncInterfaceExamples {      
 
