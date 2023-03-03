@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.tecnicalexercises.tecnicalexercises.functionalities.FuncInterfaceExamples;
+import com.tecnicalexercises.tecnicalexercises.functionalinterface.FuncInterfaceExamples;
 
 @SpringBootTest
 class TecnicalExercisesApplicationTests {
